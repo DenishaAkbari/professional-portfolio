@@ -72,7 +72,7 @@ const Card = ({ category, title, src, animationClass, id }) => {
                 <div className="project-item style-two">
                     <div className="project-image">
                         <img src={src} alt="Project" />
-                        <Link to="/single-project" className="details-btn"><RiArrowRightUpLine /> </Link>
+                        <Link className="details-btn"><RiArrowRightUpLine /> </Link>
                     </div>
                     <div className="project-content">
                         <span className="sub-title">{category}</span>
