@@ -45,7 +45,8 @@ const Header = () => {
                             <nav className="main-menu navbar-expand-lg">
                                 <div className="navbar-header">
                                     <div className="mobile-logo">
-                                        <Link to="/"><img src={logo} alt="Logo" title="Logo" /> </Link>
+                                    <h2 style={{fontSize:'18px'}}>DENISHA AKBARI</h2>
+                                        
                                     </div>
                                     {/* <!-- Toggle Button --> */}
                                     <button type="button" className="navbar-toggle" data-bs-toggle="collapse" data-bs-target=".navbar-collapse">
